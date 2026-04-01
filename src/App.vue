@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import WeartherCard from './components/WeartherCard.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <WeartherCard />
 </template>
