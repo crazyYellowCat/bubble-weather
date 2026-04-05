@@ -1,0 +1,91 @@
+export const cityNames: Record<string, string> = {
+  "Beijing": "北京",
+  "Shanghai": "上海",
+  "Guangzhou": "广州",
+  "Shenzhen": "深圳",
+  "Hong Kong": "香港",
+  "Tianjin": "天津",
+  "Chengdu": "成都",
+  "Wuhan": "武汉",
+  "Nanjing": "南京",
+  "Chongqing": "重庆",
+  "Kunming": "昆明",
+  "Foshan": "佛山",
+  "Shenyang": "沈阳",
+  "Wenzhou": "温州",
+  "Hangzhou": "杭州",
+  "Zhengze": "郑州",
+  "Qingdao": "青岛",
+  "Sanyan": "三亚",
+  "Hefei": "合肥",
+  "Xian": "西安",
+  "Shijiazhuang": "石家庄",
+  "Changsha": "长沙",
+  "Nanning": "南宁",
+  "Huizhou": "惠州",
+  "Lanzhou": "兰州",
+  "Yinchuan": "银川",
+  "Kunshan": "昆山",
+  "Jinan": "济南",
+  "Zhengzhou": "郑州",
+  "Xuzhou": "徐州",
+  "Huangshan": "黄山",
+  "Luoyang": "洛阳",
+  "Yangzhou": "扬州",
+  "Yantai": "烟台",
+  "Yichun": "伊春",
+  "Yangshuo": "阳朔",
+  "Huhehui": "呼和浩特",
+  "wului": "乌鲁木齐",
+}
+
+export const weatherDescMap: Record<string, string> = {
+  // ☀️ 晴 / 云
+  "clear sky": "晴空万里",
+  "few clouds": "少云",
+  "scattered clouds": "零散云",
+  "broken clouds": "多云",
+  "overcast clouds": "阴天",
+
+  // 🌧️ 雨
+  "light rain": "小雨",
+  "moderate rain": "中雨",
+  "heavy intensity rain": "大雨",
+  "very heavy rain": "暴雨",
+  "extreme rain": "极端暴雨",
+  "freezing rain": "冻雨",
+  "light intensity shower rain": "小阵雨",
+  "shower rain": "阵雨",
+  "heavy intensity shower rain": "强阵雨",
+
+  // 🌦️ 毛毛雨
+  "light intensity drizzle": "小毛毛雨",
+  "drizzle": "毛毛雨",
+  "heavy intensity drizzle": "强毛毛雨",
+
+  // ⛈️ 雷雨
+  "thunderstorm": "雷暴",
+  "thunderstorm with light rain": "雷阵雨（小雨）",
+  "thunderstorm with rain": "雷阵雨",
+  "thunderstorm with heavy rain": "雷暴大雨",
+
+  // ❄️ 雪
+  "light snow": "小雪",
+  "snow": "雪",
+  "heavy snow": "大雪",
+  "sleet": "雨夹雪",
+  "light shower snow": "小阵雪",
+  "shower snow": "阵雪",
+  "heavy shower snow": "强阵雪",
+
+  // 🌫️ 雾霾类
+  "mist": "薄雾",
+  "fog": "浓雾",
+  "haze": "霾",
+  "smoke": "烟",
+  "dust": "扬尘",
+  "sand": "沙尘",
+  "ash": "火山灰",
+  "squalls": "狂风",
+  "tornado": "龙卷风"
+};
